@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-vision-demo",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Google Inc.",
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "*.js"
+  ],
+  "dependencies": {
+    "@google-cloud/automl": "^0.1.3",
+    "@google-cloud/vision": "^0.23.0",
+    "canvas": "^2.0.0",
+    "mathjs": "^5.0.4",
+    "natural": "^0.6.1",
+    "redis": "^2.8.0",
+    "yargs": "^12.0.0"
+  },
+  "devDependencies": {
+    "@google-cloud/storage": "^2.0.0",
+    "chai": "^4.2.0",
+    "execa": "^1.0.0",
+    "mocha": "^5.0.0",
+    "uuid": "^3.2.1"
+  }
+}
